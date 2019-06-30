@@ -25,8 +25,9 @@ contexts:
     # strings in YAML. When using single quoted strings, only single quotes
     # need to be escaped: this is done by using two single quotes next to each
     # other.
-    - match: '\b(if|else|for|while|string|float|int|return|enum|struct|new|delete|defer
-                |print|break|continue|then|import|load|null|main)\b'
+    - match: '\b(string|else|enum|float|for|if|int|return|struct|while|new|delete|defer|print|break|
+                continue|then|import|load|null|main|to|cast|sleep|bool|array_add|true|false|assert|
+                union|scan|char)\b'
       scope: keyword.control.example-c
 
   numbers:
