@@ -10,7 +10,12 @@ contexts:
   # The prototype context is prepended to all contexts but those setting
   # meta_include_prototype: false.
   prototype:
-    - include: comments
+   - include: comments
+   - include: types
+   - include: keywords
+   - include: functions-and-declarations
+   - include: strings
+   - include: string-escaped-char
 
   main:
     # The main context is the initial starting point of our syntax.
